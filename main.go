@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"math/rand"
@@ -12,6 +13,11 @@ import (
 )
 
 func main() {
+	var listenAddr string
+
+	flag.StringVar(&listenAddr, "listen", ":18921", "http listen address")
+	flag.Parse()
+
 	rand.Seed(time.Now().Unix())
 
 	gen, err := password.NewGenerator(&password.GeneratorInput{Symbols: "-=.@#$:/+"})
@@ -50,6 +56,6 @@ func main() {
 		rw.Write([]byte(gen.MustGenerate(length, digitParam, symbolParam, false, true)))
 	})
 
-	log.Fatal(http.ListenAndServe(":18921", nil))
+	log.Fatal(http.ListenAndServe(listenAddr, nil))
 
 }
