@@ -45,8 +45,12 @@ github.com/mylxsw/asteria v0.0.0-20210617045030-e8ba894a8258 h1:7QaZns/UjjZ74fiS
 github.com/mylxsw/asteria v0.0.0-20210617045030-e8ba894a8258/go.mod h1:LLAdhjXLJdhyCmb3Mh+/DiNgjeCIZ+Z/VWMF3tmJoXU=
 github.com/mylxsw/container v0.0.0-20210615144611-b872ef1c3ecc h1:z/kY8u3xFWGOVEymAVASTY9TlL6ix8q/oud+2xRGS/E=
 github.com/mylxsw/container v0.0.0-20210615144611-b872ef1c3ecc/go.mod h1:UDbF8EtqT7jB0yDc6g9u4P8ORvw4RbFot1QputpgR5U=
+github.com/mylxsw/container v0.0.0-20220108024426-76a904a1a09b h1:ytPITKYBy7IsqxlmuAq/+SZN/HCnmqJunRGV4wk/YHc=
+github.com/mylxsw/container v0.0.0-20220108024426-76a904a1a09b/go.mod h1:UDbF8EtqT7jB0yDc6g9u4P8ORvw4RbFot1QputpgR5U=
 github.com/mylxsw/glacier v0.0.0-20220106143735-9b678feadee9 h1:n/Bj4cQjtB2Mb8WkgX4y0k7Taxd5gyvttk6syegtksk=
 github.com/mylxsw/glacier v0.0.0-20220106143735-9b678feadee9/go.mod h1:HASucTkDHfylDPQ+5vDjamVUIEwlD4OPd+8KBq+x+50=
+github.com/mylxsw/glacier v0.0.0-20220108041543-860dc8c04490 h1:tnS7a2M019movQ8y8CI/0T90AuKJXSP+r1dcg38PBbg=
+github.com/mylxsw/glacier v0.0.0-20220108041543-860dc8c04490/go.mod h1:VOZqS6ODND09iuePROYyNFsO6Cf9+h6PJ6+ud5Mxd6Q=
 github.com/mylxsw/graceful v0.0.0-20210318070625-a4a80fb77564 h1:bm9z1TNpmuOY4TutqejxlbNBy5hJaGX+uU5eOC5LUtk=
 github.com/mylxsw/graceful v0.0.0-20210318070625-a4a80fb77564/go.mod h1:8lD0X9U+/IfoW5t8f50k4BcomSznR0PR29ZRUsQ/n0I=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
