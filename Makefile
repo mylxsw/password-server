@@ -6,5 +6,8 @@ run:
 build:
 	go build -race -ldflags "$(LDFLAGS)" -o bin/password-server main.go
 
+build-cmd:
+	go build -race -ldflags "$(LDFLAGS)" -o bin/password-cmd cmd/password.go
 
-.PHONY: run build
+
+.PHONY: run build build-cmd
